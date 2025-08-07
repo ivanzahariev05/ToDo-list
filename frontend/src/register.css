@@ -1,0 +1,91 @@
+/* register.css - Modern, colorful register form styles */
+
+.register-bg {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ff6ec4 0%, #a259ff 50%, #4f8cff 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.register-card {
+  background: rgba(255,255,255,0.88);
+  border-radius: 2rem;
+  box-shadow: 0 8px 32px 0 rgba(162, 89, 255, 0.18);
+  padding: 2.5rem 2rem;
+  max-width: 400px;
+  width: 100%;
+  border: 1px solid rgba(255,255,255,0.3);
+  backdrop-filter: blur(8px);
+}
+
+.register-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #ff6ec4, #a259ff, #4f8cff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.register-input {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #4f8cff;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.2s;
+  background: #fff;
+}
+.register-input:focus {
+  border: 1.5px solid #a259ff;
+}
+
+.register-btn {
+  padding: 0.75rem 1rem;
+  border-radius: 0.75rem;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: bold;
+  background: linear-gradient(90deg, #ff6ec4, #a259ff, #4f8cff);
+  color: #fff;
+  cursor: pointer;
+  box-shadow: 0 2px 8px 0 rgba(162,89,255,0.12);
+  transition: background 0.2s, transform 0.1s;
+}
+.register-btn:active {
+  transform: scale(0.98);
+}
+.register-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.register-error {
+  color: #ff3b6b;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 500;
+}
+
+.register-link {
+  display: block;
+  text-align: center;
+  margin-top: 1.5rem;
+  color: #a259ff;
+  text-decoration: underline;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.register-link:hover {
+  color: #4f8cff;
+}

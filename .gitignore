@@ -1,0 +1,33 @@
+### Java ###
+*.class
+*.jar
+*.war
+*.ear
+/target/
+/build/
+
+### Gradle ###
+.gradle
+build/
+!gradle-wrapper.jar
+
+### Node ###
+node_modules/
+dist/
+
+### Logs ###
+*.log
+
+### Docker ###
+**/.dockerignore
+**/Dockerfile
+.env
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### IDEs ###
+*.iml
+.idea/
+.vscode/
