@@ -56,3 +56,19 @@ Make sure you have Docker + Docker Compose.
 
 ```bash
 docker-compose up --build
+
+---
+
+## 📸 Screenshots
+
+### 🔐 Login Page
+![Login](./screenshots/login.png)
+
+### 🔐 Register Page
+![Regitser](./screenshots/register.png)
+
+### ✅ Tasks Dashboard
+![Tasks](./screenshots/tasks-dashboard.png)
+
+### 👑 Admin Panel
+![Admin](./screenshots/admin.png)
