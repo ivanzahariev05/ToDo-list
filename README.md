@@ -58,6 +58,7 @@ Make sure you have Docker + Docker Compose.
 docker-compose up --build
 
 ---
+```
 
 ## 📸 Screenshots
 
